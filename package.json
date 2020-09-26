@@ -1,0 +1,27 @@
+{
+  "name": "basic-stl-generator",
+  "version": "1.0.0",
+  "description": "Basic utils to generate a STL file",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/javierbyte/basic-stl-generator.git"
+  },
+  "keywords": [
+    "stl",
+    "js",
+    "javascript",
+    "geometric",
+    "3d"
+  ],
+  "author": "hi@javier.xyz",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/javierbyte/basic-stl-generator/issues"
+  },
+  "homepage": "https://github.com/javierbyte/basic-stl-generator#readme"
+}
