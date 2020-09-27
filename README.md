@@ -1,6 +1,6 @@
 # Basic STL Generator
 
-Util functions that generate ASCII STL solid strings. See example results in [sombras.app](https://sombras.app/);
+Util functions that generate ASCII STL solid strings. See example results in [sombras.app](https://sombras.app/).
 
 ![img2css](./readme.png)
 
@@ -21,9 +21,9 @@ console.log(`
 
 #### Exports
 
-`STLCube(x, y, z)`
+`STLCube(x = 0, y = 0, z = 0, size = 10)`
 
-Returns a CUBE STL source for a cube using 12 triangular faces.
+Returns a CUBE STL source for a cube using 12 triangular faces. X, Y, Z are the 3d coordinates.
 
 ## More info.
 

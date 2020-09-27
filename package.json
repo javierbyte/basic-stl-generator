@@ -1,6 +1,6 @@
 {
   "name": "basic-stl-generator",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Basic utils to generate a STL file",
   "main": "index.js",
   "type": "module",
