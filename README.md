@@ -1,6 +1,6 @@
 # Basic STL Generator
 
-Util functions that generate ASCII solid strings.
+Util functions that generate ASCII STL solid strings. See example results in [sombras.app](https://sombras.app/);
 
 ![img2css](./readme.png)
 
@@ -10,10 +10,13 @@ Util functions that generate ASCII solid strings.
 import { STLCube } from "basic-stl-generator";
 
 console.log(`
-	${STLCube(0,0,0)}
-	${STLCube(1,1,1)}
-	${STLCube(2,2,2)}
+  ${STLCube(0,0,0)}
+  ${STLCube(1,1,1)}
+  ${STLCube(2,2,2)}
 `)
+
+# To export to a file
+# node index.js > testcube.stl
 ```
 
 #### Exports
